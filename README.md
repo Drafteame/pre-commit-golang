@@ -16,6 +16,7 @@ Add this to your `.pre-commit-config.yaml`
         - id: go-unit-tests
         - id: go-mod-tidy
         - id: go-get-update
+        - id: goimports-reviser
 
 ### Available hooks
 
