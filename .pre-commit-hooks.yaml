@@ -65,3 +65,9 @@
     files: '\.go$'
     language: 'script'
     description: "Runs `revive [args] ./...` to lint all go files"
+-   id: force-mod-version
+    name: 'force-mod-version'
+    entry: run-force-mod-version.sh
+    pass_filenames: false
+    language: 'script'
+    description: "Force go version in go.mod and go.work files"
